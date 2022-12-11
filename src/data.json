@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "title": "Al Aerbia",
+    "description": "Non-veg meals are best ever",
+    "price": "1200",
+    "coverImg": "card_image.png",
+    "stats": {
+      "ratings": "5.0",
+      "reviewCount": 10
+    },
+    "location": "Banglore",
+    "openSpots": 10
+  },
+  {
+    "id": "1",
+    "title": "Al Aerbia",
+    "description": "Non-veg meals are best ever",
+    "price": "1200",
+    "coverImg": "card_image.png",
+    "stats": {
+      "ratings": "5.0",
+      "reviewCount": 10
+    },
+    "location": "Banglore",
+    "openSpots": 10
+  }
+]

@@ -1,23 +1,33 @@
+import React from "react";
 import "./App.css";
-import logo from "./logo.svg";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Card from "./components/Card";
+import data from "./data.json";
+
+console.log(data)
 
 function App() {
+  const cards = data.map(item => {
+  <Card 
+        coverImg={item.coverImg}
+        ratings={item.stats.ratings }
+        reviewCount={ item.stats.reviewCount}
+        location={ item.location }
+        title={ item.title}
+        price={item.price}
+      />
+  })
   return (
-    <div className="App" role="main">
-      <article className="App-article">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h3>Welcome to React!</h3>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </article>
+    <div>
+      <Navbar/>
+      <Hero />
+      { cards}
+      
     </div>
-  );
+    )
 }
 
 export default App;
+
+
