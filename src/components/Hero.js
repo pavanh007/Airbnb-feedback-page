@@ -9,8 +9,7 @@ export default function Hero() {
       />
       <h1 className="hero--header">Thank you for Feedback !!!</h1>
       <p className="hero--text">
-        Join unique interactive activities led by one-of-a-kind hosts-all
-        without leaving home.
+        Join unique interactive activities! Your Feedback is lot more than anything. We planned your next trip hotel as below.
       </p>
     </section>
   );
